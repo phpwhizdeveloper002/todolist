@@ -161,5 +161,6 @@ php artisan test
 
 ## 📜 License
 
-This project is open-source and available under the [MIT license](LICENSE).
+This project is open-source and the source code is available on GitHub.
+
 
