@@ -60,6 +60,12 @@ function viewPost(id) {
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr v-if="props.posts.length === 0">
+                                    <td colspan="4" class="py-4 text-gray-500 text-center w-full">
+                                        No data found
+                                    </td>
+                                </tr>
+
                                 <tr v-for="post in props.posts" :key="post.id">
                                 <td>{{ post.id }}</td>
                                 <td>{{ post.title }}</td>
